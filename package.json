@@ -1,0 +1,13 @@
+{
+  "name": "rust-book-projects",
+  "version": "1.0.0",
+  "repository": "git@github.com:newbornfrontender/rust-book-projects.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write **/*.{json,md}"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
