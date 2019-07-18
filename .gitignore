@@ -2,3 +2,5 @@ node_modules
 target
 
 **/*.rs.bk
+**/*.exe
+**/*.pdb
