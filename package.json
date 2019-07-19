@@ -32,6 +32,10 @@
     "**/*.{json,md}": [
       "prettier --write",
       "git add"
+    ],
+    "**/*.rs": [
+      "cargo fmt",
+      "git add"
     ]
   },
   "commitlint": {
