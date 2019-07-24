@@ -1,7 +1,23 @@
 fn main() {
-    const MAX_POINTS: u32 = 100_000;
-    let first_name = String::from("Jack");
+    // First example
+    let x = 5;
 
-    println!("Max points is {}", MAX_POINTS);
-    println!("His name is {}", first_name);
+    let x = x + 1;
+
+    let x = x * 2;
+
+    println!("The value of x is {}", x);
+
+    // Second example
+    let spaces = "    ";
+
+    let spaces = spaces.len();
+
+    println!("The value of spaces is {}", spaces);
+
+    // Won't be working
+    // let mut spaces = "    ";
+    // spaces = spaces.len();
+
+    // println!("The value of spaces_new is {}", spaces);
 }
